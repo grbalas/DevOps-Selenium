@@ -21,7 +21,7 @@ public class App extends Testbase
 		Thread.sleep(5000);
 		//*[@id="twotabsearchtextbox"]
 		driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("Selenium");
-		
+		System.out.println("Launching the Google");
 		driver.findElement(By.xpath("//*[@id=\"lga\"]")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]")).click();
