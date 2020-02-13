@@ -87,7 +87,7 @@ public class Testbase {
         if (os.equals("windows 7") || os.equals("windows 10")) 
         {
         	System.out.println("Inside windows 10");
-            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\MAHANTHGADDAM\\git\\DevOps-Selenium\\Devops\\chromedriver.exe");
             driver = new ChromeDriver();
         } 
         else
