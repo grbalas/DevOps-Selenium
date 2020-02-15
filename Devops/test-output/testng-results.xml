@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-13T16:28:47 IST" name="Simple Test Suite" finished-at="2020-02-13T16:29:03 IST" duration-ms="15976">
+  <suite started-at="2020-02-14T19:20:30 IST" name="Default suite" finished-at="2020-02-14T19:21:03 IST" duration-ms="32572">
     <groups>
     </groups>
-    <test started-at="2020-02-13T16:28:47 IST" name="Login Page" finished-at="2020-02-13T16:29:03 IST" duration-ms="15976">
+    <test started-at="2020-02-14T19:20:30 IST" name="Default test" finished-at="2020-02-14T19:21:03 IST" duration-ms="32572">
       <class name="DevOps.Devops.AppTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:DevOps.Devops.AppTest@5609159b]" started-at="2020-02-13T16:28:48 IST" name="initialization" finished-at="2020-02-13T16:28:52 IST" duration-ms="4443" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:DevOps.Devops.AppTest@5609159b]" started-at="2020-02-14T19:20:30 IST" name="initialization" finished-at="2020-02-14T19:20:34 IST" duration-ms="4153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="logintoapp()[pri:1, instance:DevOps.Devops.AppTest@5609159b]" started-at="2020-02-13T16:28:52 IST" name="logintoapp" finished-at="2020-02-13T16:29:03 IST" duration-ms="11470" status="PASS">
+        <test-method signature="logintoapp()[pri:1, instance:DevOps.Devops.AppTest@5609159b]" started-at="2020-02-14T19:20:34 IST" name="logintoapp" finished-at="2020-02-14T19:21:03 IST" duration-ms="28382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoapp -->
       </class> <!-- DevOps.Devops.AppTest -->
-    </test> <!-- Login Page -->
-  </suite> <!-- Simple Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
